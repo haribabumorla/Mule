@@ -1,0 +1,80 @@
+[
+    {
+        "Id": null,
+        "type": "Account",
+        "Name": "Sample Account for Entitlements",
+        "AccountNumber": null
+    },
+    {
+        "Id": null,
+        "type": "Account",
+        "Name": "GenePoint",
+        "AccountNumber": "CC978213"
+    },
+    {
+        "Id": null,
+        "type": "Account",
+        "Name": "United Oil & Gas, UK",
+        "AccountNumber": "CD355119-A"
+    },
+    {
+        "Id": null,
+        "type": "Account",
+        "Name": "United Oil & Gas, Singapore",
+        "AccountNumber": "CD355120-B"
+    },
+    {
+        "Id": null,
+        "type": "Account",
+        "Name": "Edge Communications",
+        "AccountNumber": "CD451796"
+    },
+    {
+        "Id": null,
+        "type": "Account",
+        "Name": "Burlington Textiles Corp of America",
+        "AccountNumber": "CD656092"
+    },
+    {
+        "Id": null,
+        "type": "Account",
+        "Name": "Pyramid Construction Inc.",
+        "AccountNumber": "CC213425"
+    },
+    {
+        "Id": null,
+        "type": "Account",
+        "Name": "Dickenson plc",
+        "AccountNumber": "CC634267"
+    },
+    {
+        "Id": null,
+        "type": "Account",
+        "Name": "Grand Hotels & Resorts Ltd",
+        "AccountNumber": "CD439877"
+    },
+    {
+        "Id": null,
+        "type": "Account",
+        "Name": "Express Logistics and Transport",
+        "AccountNumber": "CC947211"
+    },
+    {
+        "Id": null,
+        "type": "Account",
+        "Name": "University of Arizona",
+        "AccountNumber": "CD736025"
+    },
+    {
+        "Id": null,
+        "type": "Account",
+        "Name": "United Oil & Gas Corp.",
+        "AccountNumber": "CD355118"
+    },
+    {
+        "Id": null,
+        "type": "Account",
+        "Name": "sForce",
+        "AccountNumber": null
+    }
+]

@@ -1,0 +1,136 @@
+Salesforce Connector 10.14 - Mule 4
+Anypoint Connector for Salesforce (Salesforce Connector) enables you to create apps that react to Salesforce events such as adding, changing, or deleting objects, topics, documents, and channels.
+
+Salesforce Connector enables you to connect to the Salesforce APIs. This connector exposes methods for accessing Salesforce, including working with the Salesforce Apex classes.
+
+This connector works with the Salesforce SOAP API, REST API, Bulk API, and Streaming API, depending on the operation you configure. Each API call uses a request/response pattern over an HTTPS connection. All required request headers, error handling, and HTTPS connection configurations are built into the connector.
+
+For compatibility information and fixed issues, see the Salesforce Connector release notes.
+
+Before You Begin
+To use this connector, you must be familiar with:
+
+The Salesforce SOAP, REST, Bulk, and Streaming APIs
+
+Anypoint Connectors
+
+Mule runtime engine (Mule)
+
+Elements and global elements in a Mule flow
+
+Creating a Mule app using Anypoint Studio (Studio)
+
+Before creating an app, you must have:
+
+Access to the Salesforce target resource, which requires a Salesforce developer account and Salesforce security token.
+
+You can receive a new security token by email if you run Reset Security Token through My Personal Information from the Salesforce Setup pages.
+
+A consumer key and secret (available in your Salesforce developer account)
+
+If you are using OAuth authentication, the namespace and schema location
+
+Limitations
+Salesforce Connector does not expose all possible operations of the Salesforce APIs.
+
+Salesforce Connector does not provide access to the Chatter API or Tooling API.
+
+Audience
+New users
+
+Read this document and create your Mule app in Anypoint Studio.
+
+The Additional Configuration Information topic helps you extend your understanding of the connector.
+
+Advanced users
+
+Read XML and Maven Support, the Additional Configuration Information topic, and Examples.
+
+Authentication Types
+Salesforce Connector connections use the following authentication types:
+
+Basic authentication
+
+Uses a username and password for authentication
+
+OAuth 2.0
+
+Delegates user authentication to the service hosting the user account
+
+OAuth JWT
+
+Uses OAuth 2.0 with a JSON Web token (JWT) request for user authentication
+
+OAuth SAML
+
+Uses OAuth 2.0 with a signed SAML 2.0 assertion to request an access token
+
+OAuth Username password
+
+Uses OAuth 2.0 with a user and password for authentication
+
+For information about configuring these authentication types, see Using Anypoint Studio to Configure Salesforce Connector.
+
+Salesforce Connector Configurations and Examples
+The following table provides links to specific Salesforce Connector information:
+
+Subject	Description
+Accept and Transform Data
+
+Accept and transform data from Salesforce example
+
+Apex SOAP and REST
+
+Configure for APEX SOAP API and APEX REST API
+
+APIs
+
+List of Salesforce APIs that this connector can access
+
+Application Development
+
+Process order and integration patterns
+
+Batched Data
+
+Batch data using the Salesforce Bulk API
+
+Lead Convert Request ID
+
+Specify a lead ID using DataWeave
+
+Parent Child Relationships
+
+Create and update parent and child relationships example
+
+Anypoint Exchange Templates and Examples
+
+Simplify Salesforce Connector development with a template or example
+
+Subscribe Topic
+
+Subscribe to a Salesforce topic
+
+Subscribe Streaming Channel
+
+Subscribe to a Salesforce streaming channel
+
+Replay Topic
+
+Replay events from a Topic
+
+Replay Streaming Channel
+
+Replay Events from a Salesforce streaming channel
+
+Custom Event Notifications
+
+Get custom event notifications over a streaming channel
+
+Push Event Notifications
+
+Push Events to a Streaming Channel
+
+Object Store Usage
+
+Object Store usage and limitations
